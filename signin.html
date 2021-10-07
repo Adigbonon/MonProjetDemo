@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="device=width-device">
+    <meta name="description" content="Affordable Web Development, Professional Web Development">
+    <meta name="keyword" content="Wev Development, Web Design">
+    <meta name="author" content="Alexandre Anania, Programmer and Developer">
+    <title>Dys-covery</title>
+    <link rel="stylesheet" type="text/css" href="forms.css">
+</head>
+
+<body>
+    <section id="banner">
+        <header>
+            <div class="shape">
+                <div class="logo">
+                    <img src="Images/logo_simplifié.png">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Qui sommes Nous?</a></li>
+                        <li><a href="#">Nos Services</a>
+                            <ul class="nav-has-dropdown">
+                                <li><a href="#">Formation</a></li>
+                                <li><a href="#">Logement</a></li>
+                                <li><a href="#">Aide</a></li>
+                            </ul>
+                        </li>
+                        <!--<li><a href="#">Contacts</a></li>-->
+                        <li><a href="#ancre-contact">Nous Contacter</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </section>
+
+    <section id="Contact">
+        <div id="ancre-contact" class="shape">
+            <div class="contact-header">
+                <h1>Formulaire de connexion</h1>
+                <h2> Vous n'êtes pas encore inscrit ? <a href="signup.html">Cliquez ici !</a></h2>
+            </div>
+            <div class="Form">
+                <form>
+                    <label for="email">Votre adresse email :</label>
+                    <div class="inp">
+                        <input type="email" spellcheck="true" required="true" id="email">
+                    </div>
+                    <label for="password">Votre mot de passe :</label>
+                    <div class="inp">
+                        <input type="password" spellcheck="true" required="true" id="password">
+                    </div>
+                    <div class="btn">
+                        <input type="submit" value="Je me connecte !">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</html>
